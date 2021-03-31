@@ -1,6 +1,7 @@
 ---
 title: IDO-SBC2D70
 parent: SSD201
+has_children: true
 nav_order: 1
 ---
 
