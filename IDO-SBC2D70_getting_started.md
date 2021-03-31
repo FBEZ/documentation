@@ -1,5 +1,5 @@
 ---
-title: IDO-SBC2D70_getting_started
+title: Getting started
 parent: IDO-SBC2D70
 grand_parent: SSD201
 nav_order: 1
