@@ -42,3 +42,22 @@ Now connect an usb-c charger (e.g. of a smartphone) and wait the boot. Note that
 When the system has completely booted up, hit enter and you'll see the shell:
 ![Shell](./images/getting_started/OpenShell.png)
 
+## Telnet
+
+On the system is running both a telnet and an ssh deamon. To connect to the system, power on the board with an usb-c charger and connect the Ethernet cable.
+The board will try to connect with IP `192.168.1.1`, so before connecting it, check weather your router is using the same address. To do so, you can open a terminal, write `ifconfig`, and looking for ip address specified after "broadcast", e.g. `ifconfig | grep broadcast | awk '{ print $6 }'`. Otherwise you can follow this [tutorial](https://www.howtogeek.com/233952/how-to-find-your-routers-ip-address-on-any-computer-smartphone-or-tablet/).
+
+In this example the router is connected to the address `192.168.1.254`. 
+
+### Connection
+On almost any Linux distro a telnet client is already availble. Open the terminal and write
+`telnet 192.168.1.1`
+You will get the same screen as in the previous image.
+
+## SSH
+
+To connect via SSH you can follow exactly the same steps shown in the previous section, but instead of calling the telnet client, you write
+`ssh root@192.168.1.1`
+
+Note that open wrt comes with a blank default root password. This is a problem for the next steps, where we'll be using `scp`. So once connected we set the root password by writing
+`passwd ` and choosing a password.
