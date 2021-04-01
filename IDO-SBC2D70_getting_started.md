@@ -36,4 +36,9 @@ We will use GTK-Term. To install it open a terminal and write
 `sudo apt-get install gtkterm`
 Open it, click on configuration and set the value as below
 ![Setup](./images/getting_started/SerialSetup.png)
-Check the port, which is usually called /dev/ttyUSB0 or /dev/ttyUSB1 on Ubuntu.
+
+Check the port, which is usually called /dev/ttyUSB0 or /dev/ttyUSB1 on Ubuntu. 
+Now connect an usb-c charger (e.g. of a smartphone) and wait the boot. Note that using a laptop usb-c charger could not work, so a smartphone one is reccomended. 
+When the system has completely booted up, hit enter and you'll see the shell:
+![Shell](./images/getting_started/OpenShell.png)
+
