@@ -20,6 +20,7 @@ The simples way to gain access to a console is to connect a USB/UART bridge on t
 
 ### Connection
 The DEBUG port has the following layout:
+
 |Pin Nr.| Function |
 |:-----:|:--------:|
 |1      |TX        |
@@ -33,3 +34,6 @@ TX and RX are at 3.3V. Connect the ground, the TX of the USB/UART Bridge with th
 
 We will use GTK-Term. To install it open a terminal and write
 `sudo apt-get install gtkterm`
+Open it, click on configuration and set the value as below
+![Setup](./images/getting_started/SerialSetup.png)
+Check the port, which is usually called /dev/ttyUSB0 or /dev/ttyUSB1 on Ubuntu.
