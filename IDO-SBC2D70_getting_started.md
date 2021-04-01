@@ -12,9 +12,13 @@ In this tutorial we will gain access to a shell on the Linux system in the IDO-S
 2. Telnet
 3. SSH
 
+The following has been done on an Ubuntu 20.04 machine.
+
 ## Serial Connection
 
 The simples way to gain access to a console is to connect a USB/UART bridge on the DEBUG connector. The DEBUG connector is a PH2.0, so if you're using the USB/UART mentioned above, you need an adapter like [this one](https://www.amazon.it/gp/product/B08QYV36T7/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1).
+
+### Connection
 The DEBUG port has the following layout:
 |Pin Nr.| Function |
 |:-----:|:--------:|
@@ -23,4 +27,9 @@ The DEBUG port has the following layout:
 |3      |GND       |
 |4      |NC        |
 
+TX and RX are at 3.3V. Connect the ground, the TX of the USB/UART Bridge with the RX (i.e. Pin 2 on the board) and RX of the Bridge with the TX on the board (i.e. Pin 3).
 
+### Serial connection software
+
+We will use GTK-Term. To install it open a terminal and write
+`sudo apt-get install gtkterm`
