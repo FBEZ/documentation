@@ -11,3 +11,12 @@ In this document the ESP32-C3-DevkitM-1 and the ESP-PROG programmer are used. Vs
 
 ## Connection
 
+|ESP32-C3-Mini-1 (PIN)| ESP-PROG   |
+|:-------------------:|:----------:|
+|VCC (2)              |VCC (1)     |
+|GPIO4 (11)           |ESP_TMS (2) | 
+|GPIO6 (9)            |ESP_CLK (4) |
+|GPIO7 (8)            |ESP_TDO (6) |
+|GPIO5 (10)           |ESP_TDI (8) |
+|GND (1)              |GND (9)     |
+
