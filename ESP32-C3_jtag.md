@@ -10,8 +10,9 @@ nav_order: 1
 In this document the ESP32-C3-DevkitM-1 and the ESP-PROG programmer are used. Vscode is running on Windows 11.
 
 ## Connection
+Connect the ESP-PROG and ESP32-C3-Mini-1 pins as show in the table below. The table lists the pin name and the pin number in brackets.
 
-|ESP32-C3-Mini-1 (PIN)| ESP-PROG   |
+|ESP32-C3-Mini-1 (PIN)| ESP-PROG (PIN)  |
 |:-------------------:|:----------:|
 |VCC (2)              |VCC (1)     |
 |GPIO4 (11)           |ESP_TMS (2) | 
@@ -24,7 +25,9 @@ In this document the ESP32-C3-DevkitM-1 and the ESP-PROG programmer are used. Vs
 
 ## Project setup
 
-Hit CTRL+SHIFT+P to open the control palette. Write '''show example project''' and click on the '''use current ESP-IDF''' dropdown item. Select "hello world". On the control palette write "set target" and select ESP32-C3 ESP-PROG on the dropdown menu. 
+Hit CTRL+SHIFT+P to open the control palette. Write ```show example project``` and click on the ```use current ESP-IDF``` dropdown item. Select "hello world". On the control palette write "set target" and select ESP32-C3 ESP-PROG on the dropdown menu. 
 Before compiling the project, write "menuconfig" on the control palette and look for "bundle". Deselect 
 
 ![Bundle deselct](./images/esp32-c3_jtag/bundle.png)
+
+On the control palette write build and select the ESP-IDF: Build your project.
