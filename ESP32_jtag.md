@@ -19,7 +19,7 @@ Start a new project as explained [here](https://github.com/espressif/idf-eclipse
 ## Connection JTAG
 Connect the ESP-PROG and ESP32-WROOM-32E pins as show in the table below. The table lists the pin name and the pin number in brackets.
 
-| ESP32-C3-Mini-1 (PIN) | ESP-PROG (PIN) |
+| ESP32-WROOM-32E (PIN) | ESP-PROG (PIN) |
 |:---------------------:|:--------------:|
 | VCC (2)               | VCC (1)        |
 | MTMS / GPIO14         | ESP_TMS (2)    |
