@@ -35,13 +35,14 @@ You may encounter a problem [TODO]
 If this happens, open the configuration through the vscode command ```ESP-IDF: SDK Configuration Editor (menuconfig)``` and search for the word "bundle". You need to uncheck the box and build the project again.
 
 At this point you shouldn't get any error. Now you can flash the project with vscode command ```ESP-IDF:Flash your project```.
+The display of the evk will go black while donwloading the firmware.
 
 ## Result
 
+When the flashing is completed, click on one of the image names on the left, and you should see one of the default pictures.
 
+![getting-started-esp-box.png](images/esp-box-getting-started/getting_started_image.jpg)
 
-
-
-
+The pictures are contained in the folder ```spiffs``` where you can easily add new ones or change their names.
 
 
