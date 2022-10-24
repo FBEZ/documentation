@@ -5,7 +5,7 @@ grand_parent: ESP32-S3
 nav_order: 1
 ---
 
-# Before starting
+# Getting started
 In this document we'll see how to flash your first program in the ESP32-S3-Box, the example ```image_display```.
 
 ## Prerequisites
@@ -13,7 +13,7 @@ To start compiling and flashing you need to have installed:
 * ESP-IDF (here the v4.4 will be used) - better if installed through vscode plugin
 * Vscode (not mandatory but highly recommended)
 
-# Getting the example working
+## Cloning and building the project
 
 The first step open a terminal and hit
 ```git clone --recursive https://github.com/espressif/esp-box.git ```
