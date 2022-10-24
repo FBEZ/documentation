@@ -1,7 +1,7 @@
 ---
-title: Getting-Started
-parent: ESP-Box
-has_children: true
+title: Getting-Started 
+parent: ESP-Box 
+grand_parent: ESP32-S3
 nav_order: 1
 ---
 
